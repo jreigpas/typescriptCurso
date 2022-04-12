@@ -12,3 +12,5 @@ class Coche {
         this.marca = marca;
     }
 }
+let miCoche = new Coche("Alfa Romeo");
+console.log('mi coche es de la marca ' + miCoche.getMarca());
