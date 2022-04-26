@@ -1,9 +1,9 @@
 /*uso de let y const
   let es para asignar la variable
   const es para asignar una constante */
-let valor = 5;          //correcto
+let valor : number | string = 5;          //correcto
 let valor2: number = 5; // correcto
-valor =6;               //es correcto
+valor ="pepe";               //es correcto
 
 const otroValor = 6;
 //otroValor = 7; //incorrecto porque es constante . -> Cannot assign to 'otroValor' because it is a constant
