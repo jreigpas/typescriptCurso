@@ -2,11 +2,16 @@ class Coche {
 
   //atributo
   private marca: string;
+  private antiguedad: number;
+
 
   //constructor
-  constructor(marca: string) {
+  constructor(marca: string, antiguedad?: number) {
     this.marca = marca;
+    this.antiguedad = antiguedad;
   }
+
+  miVariable=5;
 
   //metodo get
   getMarca(): string {

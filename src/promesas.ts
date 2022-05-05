@@ -2,7 +2,7 @@ console.log('Inicio del Init');
 
 const promesa = new Promise((resolve, reject) => {
 
-  if (true) // coloca false para ejecutar el .catch()
+  if (false) // coloca false para ejecutar el .catch()
   {
     resolve('Hola World');
   }
